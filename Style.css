@@ -1,0 +1,82 @@
+/* Reset dasar dan Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background Gelap Estetik */
+body {
+    background-color: #0d0d11;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Wadah Utama */
+.container {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Header Profil */
+.profile-header .avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #ff007f; /* Efek lingkaran pink neon */
+    box-shadow: 0 0 15px #ff007f;
+    margin-bottom: 15px;
+}
+
+.profile-header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.profile-header .subtitle {
+    color: #8a8a98;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+/* Desain Tombol Member/Link */
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+/* Efek ketika tombol disentuh/di-hover */
+.link-card:hover {
+    background: rgba(255, 0, 127, 0.1);
+    border-color: #ff007f;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 0, 127, 0.3);
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: #555565;
+}
